@@ -5,11 +5,11 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /
 
 # Website info
 title: Ghost
-description: The professional publishing platform
+description: Heechan's first blog
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
@@ -23,7 +23,7 @@ subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+facebook: 01092484270 # replace by your username
 
 # Disqus
 disqus: False
@@ -91,3 +91,5 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+
+remote_theme : jekyller/jasper2
