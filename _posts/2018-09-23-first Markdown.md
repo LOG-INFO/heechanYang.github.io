@@ -1,5 +1,4 @@
 <hr>
-
 =, 헤드라인
 =
 <b>나의</b> 첫번째 마크다운 포스트
@@ -54,28 +53,28 @@
 &lt;pre&gt;여긴 뭐징&lt;/pre&gt;
 </pre>
 ```{.java}
-	class MySingletonObject extend MyParentClass implement MyInterFace{
-    	public static final int MY_CONSTANT = 100;          
-    
-        private static SingletonObject instance;      
-    
-        private SingletonObject(){  
-            super();
-        	// Private Constructor
-        }
-    
-        public static SingletonObject getInstance(){
-        	if(instance == null){
-            	instance = new SingletonObject();
-            }
-            return instance;
-        }
+class MySingletonObject extend MyParentClass implement MyInterFace{
+	public static final int MY_CONSTANT = 100;          
 
-        @override
-        public void interfaceFunc(){
+	private static SingletonObject instance;      
+	
+	// Private Constructor
+	private SingletonObject(){  
+		super();
+		}
 
-        }
-    }
+	public static SingletonObject getInstance(){
+		if(instance == null){
+			instance = new SingletonObject();
+		}
+		return instance;
+	}
+
+	@override
+	public void interfaceFunc(){
+	
+	}
+}
 ```
 
 ## 문장 중간에 코드 블록
