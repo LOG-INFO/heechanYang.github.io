@@ -9,7 +9,7 @@ baseurl: /
 
 # Website info
 title: 양희찬의 개발 공간
-description: \#Java \#Spring \#Android \#AWS \#MySQL \#Python
+description: "#Java #Spring #Android #AWS #MySQL #Python"
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
