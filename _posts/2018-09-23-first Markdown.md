@@ -1,5 +1,11 @@
- =, 헤드라인
+<hr>
+
+=, 헤드라인
 =
+<b>나의</b> 첫번째 마크다운 포스트
+<br>
+<br>
+<br>
 
 # #, 헤드라인
 #헤드라인이 더 직관적이다
@@ -47,7 +53,6 @@
 <pre>
 &lt;pre&gt;여긴 뭐징&lt;/pre&gt;
 </pre>
-
 ```{.java}
 	class MySingletonObject extend MyParentClass implement MyInterFace{
     	public static final int MY_CONSTANT = 100;          
@@ -71,5 +76,15 @@
 
         }
     }
-    
 ```
+
+## 문장 중간에 코드 블록
+위의 코드에서 `MySingleObject.getInstance();`를 이용해서 해당 클래스를 생성 및 호출합니다.
+
+
+## 이거슨 표
+head1 | head2
+------|-------
+hello | foo
+hi    | bar
+
