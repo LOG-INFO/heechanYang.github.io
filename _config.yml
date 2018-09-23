@@ -24,6 +24,7 @@ subscribers: True # you need to connect an external service for this to work,
 # by editing `_includes/subscribe-form.html`
 # twitter: tryghost # replace by your username
 facebook: 100003101254353 # replace by your username
+google: yhc944
 
 # Disqus
 disqus: False
