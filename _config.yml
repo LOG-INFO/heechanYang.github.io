@@ -34,7 +34,7 @@ disqus_shortname: jekyller # replace with your disqus username
 google_analytics: UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
-# permalink: /:title
+permalink: /:title
 # permalink: /author/:author
 # permalink: /tag/:tag
 
