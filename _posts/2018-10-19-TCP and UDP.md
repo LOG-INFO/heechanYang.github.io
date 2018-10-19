@@ -21,6 +21,9 @@ TCP는 **3-Way Handshake**를 통해 세션에 연결한다.
 
 ![4-way_handshake](../assets/images/4-way_handshake.png)
 
+## 예시
+![handshake_example](../assets/images/handshake_example.png)
+\* (1)은 (5)~(7)의 과정이, (4)는 (11)~(14)의 과정이 생략된 것
 ## Flag
 - **SYN(Synchronization)**  
     **"통신하자!"**  
