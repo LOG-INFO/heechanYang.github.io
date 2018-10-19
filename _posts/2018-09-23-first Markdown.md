@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "First Markdown"
+date:   2018-09-23 20:16:01 +0830
+categories: ETC
+---
+
 <hr>
 =, 헤드라인
 =
