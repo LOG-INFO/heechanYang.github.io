@@ -14,6 +14,11 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         {% include site-nav.html %}
     </div>
+    {% if site.logo %}
+        <a class="site-nav-logo" href="{{ site.url }}/"><img src="{{ site.url}}/{{ site.logo }}" alt="{{ site.title }}" /></a>
+    {% else %}
+        <a class="site-nav-logo" href="{{ site.url }}/">{{ site.title }}</a>
+    {% endif %}
 </header>
 
 <!-- Everything inside the #post tags pulls data from the post -->
