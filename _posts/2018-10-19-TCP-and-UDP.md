@@ -32,7 +32,7 @@ TCP는 **3-Way Handshake**를 통해 세션에 연결한다.
 ![handshake_example](/assets/images/handshake_example.PNG)
 \* (1)은 (5)~(7)의 과정이, (4)는 (11)~(14)의 과정이 생략된 것
 ## Flag
-- **SYN(Synchronization)**  \
+- **SYN(Synchronization)**  
 **"통신하자!"**  
 \: 연결 요청. 세션 개설에 사용.  
 초기에 Sequence Number를 임의로 생성하여 전송.
@@ -47,7 +47,7 @@ ACK의 번호와 응답을 통해 보낸 패킷의 손실을 판단하여 재전
 \: 연결 해제 요청. 세션 종료에 사용.  
 발신자가 더이상 보낸 데이터가 없음을 보여줌.
 
-- **RST(Reset)**
+- **RST(Reset)**  
 **"끊고 다시 연결하자!"**  
 \: 강제로 세션을 초기화할 때 사용.  
 양방향에서 동시에 일어나는 중단작업으로, 비 정상적인 세션을 해제할 때 사용.
