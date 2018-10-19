@@ -89,8 +89,9 @@ class MySingletonObject extend MyParentClass implement MyInterFace{
 
 
 ## 이거슨 표
-head1 | head2
-------|-------
-hello | foo
-hi    | bar
+
+|head1 | head2|
+|------|-------|
+|hello | foo|
+|hi    | bar|
 
