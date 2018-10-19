@@ -14,15 +14,15 @@ TCP는 OSI 7 Layer 중 전송계층(Transport layer)에 위치한다.
 ## 세션 연결
 TCP는 **3-Way Handshake**를 통해 세션에 연결한다.
 
-![3-way_handshake](assets/images/3-way_handshake.png)
+![3-way_handshake](/assets/images/3-way_handshake.PNG)
 
 ## 세션 해제
 세션을 해제할 때는 **4-Way Handshake**방식을 취한다.
 
-![4-way_handshake](assets/images/4-way_handshake.png)
+![4-way_handshake](/assets/images/4-way_handshake.PNG)
 
 ## 예시
-![handshake_example](assets/images/handshake_example.png)
+![handshake_example](/assets/images/handshake_example.PNG)
 \* (1)은 (5)~(7)의 과정이, (4)는 (11)~(14)의 과정이 생략된 것
 ## Flag
 - **SYN(Synchronization)**  
