@@ -21,9 +21,7 @@ into the {body} of the default.hbs template -->
 
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-
         <article class="post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
-
             <header class="post-full-header">
                 <section class="post-full-meta">
                     <time class="post-full-meta-date" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | date:'%e %B %Y' }}</time>
@@ -36,16 +34,6 @@ into the {body} of the default.hbs template -->
                                <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>,
                             {% endif %}
                         {% endfor %}
-                    {% else %}
-                        <div class="inner">
-                            <nav class="site-nav-center">
-                                {% if site.logo %}
-                                    <a class="site-nav-logo" href="{{ site.url }}"><img src="{{site.url}}/{{ site.logo }}" alt="{{ site.title }}" /></a>
-                                {% else %}
-                                    <a class="site-nav-logo" href="{{ site.url }}">{{ site.title }}</a>
-                                {% endif %}
-                            </nav>
-                        </div>
                     {% endif %}
                 </section>
                 <h1 class="post-full-title">{{ page.title }}</h1>
@@ -81,16 +69,16 @@ into the {body} of the default.hbs template -->
                                 <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ page.author }}" />
                             {% endif %}
                             <section class="author-card-content">
-                                <h4 class="author-card-name"><a href="{{ site.url }}/author/{{ page.author }}">{{ author[1].name }}</a></h4>
+                                <h4 class="author-card-name"><a href="{{ site.baseurl }}author/{{ page.author }}">{{ author[1].name }}</a></h4>
                                 {% if author[1].bio %}
                                     <p>{{ author[1].bio }}</p>
                                 {% else %}
-                                    <p>Read <a href="{{ site.url }}/author/{{ page.author }}">more posts</a> by this author.</p>
+                                    <p>Read <a href="{{ site.baseurl }}author/{{ page.author }}">more posts</a> by this author.</p>
                                 {% endif %}
                             </section>
                         </section>
                         <div class="post-full-footer-right">
-                            <a class="author-card-button" href="{{ site.url }}/author/{{ page.author }}">Read More</a>
+                            <a class="author-card-button" href="{{ site.baseurl }}author/{{ page.author }}">Read More</a>
                         </div>
                     {% endif %}
                 {% endfor %}
