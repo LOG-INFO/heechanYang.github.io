@@ -94,3 +94,9 @@ class MySingletonObject extend MyParentClass implement MyInterFace{
 | hello | foo |
 | hi    | bar |
 
+```
+| head1 | head2 |
+|------|-------|
+| hello | foo |
+| hi    | bar |
+```
