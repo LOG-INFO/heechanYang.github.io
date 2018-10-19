@@ -36,6 +36,16 @@ into the {body} of the default.hbs template -->
                                <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>,
                             {% endif %}
                         {% endfor %}
+                    {% else %}
+                        <div class="inner">
+                            <nav class="site-nav-center">
+                                {% if site.logo %}
+                                    <a class="site-nav-logo" href="{{ site.url }}"><img src="{{site.url}}/{{ site.logo }}" alt="{{ site.title }}" /></a>
+                                {% else %}
+                                    <a class="site-nav-logo" href="{{ site.url }}">{{ site.title }}</a>
+                                {% endif %}
+                            </nav>
+                        </div>
                     {% endif %}
                 </section>
                 <h1 class="post-full-title">{{ page.title }}</h1>
