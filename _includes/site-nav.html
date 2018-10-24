@@ -13,6 +13,9 @@
     </div>
     <div class="site-nav-right">
         <div class="social-links">
+            {% if site.github %}
+                <a class="social-link social-link-gh" href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">{% include github.html %}</a>
+            {% endif %}
             {% if site.facebook %}
                 <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
             {% endif %}
