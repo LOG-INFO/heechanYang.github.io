@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Spring Framework란?"
+title:  "Spring Framework - 주요 개념 및 용어 정리"
 date:   2018-10-23 06:25:01 +0830
-categories: Back-End
+categories: Spring Framework
 ---
 
 # Spring?

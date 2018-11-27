@@ -1,5 +1,8 @@
 # Jekyll configuration
 markdown: kramdown
+kramdown:
+  input: GFM
+  
 highlighter: rouge
 paginate: 100 # it will paginate after this number
 language: 'en-uk'
