@@ -35,7 +35,8 @@ categories: Spring Framework
 
 # 객체 종류
 ## POJO(Plain Old Java Object)
-## DAO(Data Access Object)?  
+## DAO(Data Access Object)?
+: DB의 데이터에 접근하는 기능을 담당하는 Object  
 ## DTO(Data Transfer Object)?
 ## VO(Value Object)  
 
