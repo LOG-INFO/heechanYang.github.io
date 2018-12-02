@@ -63,8 +63,8 @@ Java EE는 다음과 같은 Specification들을 포함하고 있다.
 - **Facelets** : 
 - **SOAP** : SOAP(Simple Object Access Protocol)은 일반적으로 널리 알려진 HTTP, HTTPS, SMTP 등을 통해 **XML 기반의 메시지**를 컴퓨터 네트워크 상에서 교환하는 프로토콜이다.
 - **Specification** : 규격? 사양? Specification?
-- **Java 11과 Java EE에게 무슨 일이?**
 - **JDK? JRE?**
+- **Java 2?**
 
 # 참고 문헌
 - https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition
