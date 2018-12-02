@@ -28,7 +28,7 @@ Java Platform은 Java로 기술된 프로그램 개발 및 배포에 필요한 �
 
 # Java EE (Java Enterprise Edition)
 
-**Java EE**의 공식적인 명칭은 'Java 2 Platform, Enterprise Edition (**J2EE**)'으로, **Java SE (8~10, 12~)의 확장 그리고 분산 컴퓨팅과 웹서비스와 같은 Enterprise feature들의 Specification을 포함**한다. Java EE Application은 트랜잭션, 보안, 확장성, 동시성 그리고 Component들의 관리를 다루는 **Microservices** 또는 **Application Server** 등에서 실행된다.
+**Java EE**의 공식적인 명칭은 'Java 2 Platform, Enterprise Edition (**J2EE**)'으로, **Java SE의 확장 그리고 분산 컴퓨팅과 웹서비스와 같은 Enterprise feature들의 Specification을 포함**한다. Java EE Application은 트랜잭션, 보안, 확장성, 동시성 그리고 Component들의 관리를 다루는 **Microservices** 또는 **Application Server** 등에서 실행된다.
 
 Java EE는 다음과 같은 Specification들을 포함하고 있다.
 - Web Specifications
