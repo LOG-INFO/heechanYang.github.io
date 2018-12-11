@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "소프트웨어 공학"
+title:  "소프트웨어 공학 - 양희찬의 개발 공간"
 date:   2018-10-20 22:10:01 +0830
 categories: Security
 ---
