@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java SE/EE/ME - 양희찬의 개발 공간"
+title:  "Java SE/EE/ME - sysout"
 date:   2018-12-03 03:00:23 +0830
 categories: Java
 ---
