@@ -1,7 +1,14 @@
 # Jekyll configuration
 markdown: kramdown
 kramdown:
-  input: GFM
+  auto_ids:      true
+  entity_output: as_char
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+  input:         GFM
+  hard_wrap:     false
+  footnote_nr:   1
+  show_warnings: false
   
 highlighter: rouge
 paginate: 100 # it will paginate after this number
@@ -11,7 +18,7 @@ language: 'en-uk'
 baseurl: /
 
 # Website info
-title: sysout
+title: LOG.INFO
 description: "#Java #Spring #Android #AWS #MySQL #Python"
 cover: /assets/images/blog-cover.jpg
 logo: /assets/images/blog-icon.png

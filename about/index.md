@@ -1,17 +1,49 @@
 ---
 layout: page
 current: about
-title: About
+title: Author
 navigation: true
 logo: '/assets/images/ghost.png'
 class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+# Profile
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+## Name : 양희찬
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
+## Univ. : 서울과학기술대학교 컴퓨터공학과
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+## Email : yhc944@gmail.com
+
+## Git : [https://github.com/HeechanYang](https://github.com/HeechanYang)
+
+# Skill-set
+
+## Language : Java / Python / JavaScript
+
+## Framework : Spring / Scrapy / Android
+
+## Tool : Git / MySQL Workbench
+
+## Cloud : Amazon Web Service
+
+# Awards
+
+## - 제 9회 TOPCIT 한국지역개발원장상 (2018.07.13)
+
+## - 제 9회 TOPCIT 서울과학기술대학교총장상 (2018.07.13)
+
+## - 빅콘테스트 2018 최우수상(한국정보통신진흥협회장상) (2018.11.21)
+
+## - 제 10회 TOPCIT 한국정보산업연합회장상 (2018.12.13)
+
+## - 제 10회 TOPCIT 서울과학기술대학교총장상 (2018.12.13)
+
+# Activities
+
+## - 과내 학술동아리 Endless Creation (2013.03.20 ~ )
+
+## - 제 9기 소프트웨어 마에스트로 연수 (2018.04.03 ~ 2018.11.20)
+
+## - [개인 개발 블로그](http://heechanyang.github.io) 운영 (2018.09.13 ~)
