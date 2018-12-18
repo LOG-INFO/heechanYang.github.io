@@ -14,7 +14,7 @@ subclass: 'post page'
 
 > ## Univ. : 서울과학기술대학교 컴퓨터공학과
 
-> ## Email : yhc944@gmail.com
+> ## Email : [yhc944@gmail.com](yhc944@gmail.com)
 
 > ## Git : [https://github.com/HeechanYang](https://github.com/HeechanYang)
 
