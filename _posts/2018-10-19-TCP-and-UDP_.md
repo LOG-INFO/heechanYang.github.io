@@ -4,7 +4,7 @@ title:  "TCP/UDP"
 date:   2018-10-19 20:16:01 +0830
 categories: Network
 ---
-
+ 
 # TCP(Transmission Control Protocol)
 TCP는 번역하여 '전송 제어 프로토콜'이라고 하며, IP Suite의 핵심 프로토콜 중 하나로, 합쳐서 TCP/IP라고 불린다.
 

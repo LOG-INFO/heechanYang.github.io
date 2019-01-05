@@ -5,7 +5,7 @@ date:   2018-12-20 22:34:22 +0830
 categories: java
 ---
 
-이번 포스트는 Spring Framework에서 애용되는 ORM(Object-Relational Mapping)기술인  JPA에 대해 정리해 보았다. 
+이번 포스트는 Spring Framework에서 애용되는 ORM(Object-Relational Mapping)기술인 JPA에 대해 정리해 보았다. 
 
 # JPA(Java Persistence API)
 
@@ -42,14 +42,17 @@ categories: java
 - 높은 러닝 커브 (어렵다 어려워..)
 
 # 꼬리에 꼬리를 물어~~~
+
 - Auditing : 수정일자, 생성일자, 생성자, 수정자 컬럼에 자동으로 값을 넣어주는 기능.
 - Persistence??  
+
 ```
 Persistence in this context covers three areas:  
 - The API itself, defined in the `javax.persistence package`  
 - JPQL(Java Persistence Query Language)  
 - Object/Relational metadata
 ```
+
 - Spring Data Family?
     - Spring Data JPA
     - Spring Data LDAp
