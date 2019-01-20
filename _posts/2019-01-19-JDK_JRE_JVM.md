@@ -7,9 +7,21 @@ categories: Java
 
 이번 포스트는 JDK와 JRE, JVM에 대해 알아본다
 
+# Java
+
+일단 Java에 대해 간단히 말을 하면 **JCP에서 제안하고 JSR에서 통과된 프로그래밍 언어**를 말한다.
+
+## Java code가 돌아가는 과정
+
+1. 프로그램 실행 시 JVM은 OS로부터 자원을 할당받고, 용도에따라 영역을 나누어 관리한다.
+2. javac(컴파일러)가 소스코드파일(.java)을 컴파일하여 바이트코드 파일(.class)을 생성한다.
+3. ClassLoader를 통해 바이트코드 파일(.class)을 JVM에 로드한다
+4. 로딩된 class 파일들은 Execution engine을 통해 해석된다
+5. 해석된 바이트코드는 Runtime Data Area에 배치되어 수행된다
+
 # JDK(Java Development Kit)란?
 
-- Java 개발을 위한 여러 도구들을 포함하는 Kit
+- Java 개발을 위한 여러 도구들을 포함하는 툴킷
   - javac, java 등
 - JRE와 개발을 위해 필요한 도구(javac, java등)들을 포함
 
@@ -75,3 +87,4 @@ categories: Java
 - [JDK, JRE, JVM의 차이 - Two rab](http://tworab.tistory.com/13)
 - [JVM, JRE, JDK의 차이 - 점프 투 자바](https://wikidocs.net/257)
 - [Java 유료 논쟁, Oracle JDK와 OpenJDK의 차이 정리 - OKKY](https://okky.kr/article/490213?note=1490642)
+- [자바가상머신, JVM이란 무엇인가? - _Jbee](http://asfirstalways.tistory.com/158)
