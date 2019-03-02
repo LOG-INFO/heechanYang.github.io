@@ -5,7 +5,35 @@ date:   2018-12-20 22:34:22 +0830
 categories: java
 ---
 
-이번 포스트는 Spring Framework에서 애용되는 ORM(Object-Relational Mapping)기술인 JPA에 대해 정리해 보았다. 
+이번 포스트는 Spring Framework에서 애용되는 ORM(Object-Relational Mapping)기술인 JPA에 대해 정리해 보았다.
+
+# 배경
+
+## 문제
+
+요즘 MongoDB와 같은 NoSQL DB가 뜨고 있긴 하지만, 아직까지 대부분의 데이터베이스는 관계형 데이터베이스로 구축이 되어있다.
+
+또, 주로 **객체**를 **관계형 DB**에 저장을 하고 있다.
+
+문제는 반복되고 지루한 SQL 쿼리들을 매번 작성해야한다는 것이다. 더 문제는 **자바 객체**를 **SQL**로, **SQL**을 **자바 객체**로 바꿔주는 작업을 해야한다.
+
+또한, 객체에 컬럼이 새로 수정되면 관련 쿼리들을 전부 찾아서 수정해주어야 한다. 이 과정은 굉장히 손이 많이 가며 실수하기 쉽다.
+
+또한, 연관된 객체들을 불러오려면 먼저 연관된 객체들까지 전부 JOIN해서 가져와야함.
+
+```java
+Member member = memberDAO.find(id);
+member.getTeam(); //hmmm..
+member.getOrder().getDelivery(); // hmmm.........
+```
+
+또한, SQL 의존적인 개발이 불가피하다.  
+- 개발자 ≒ SQL 매퍼
+
+## 문제 발생 이유
+
+### 패러다임의 불일치 - 객체지향 VS 관계형 DB
+
 
 # JPA(Java Persistence API)
 
