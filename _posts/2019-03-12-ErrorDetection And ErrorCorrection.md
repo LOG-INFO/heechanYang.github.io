@@ -32,6 +32,8 @@ categories: Network
   - 1 bit 오류 검출 가능
 - **Cyclic Redundancy Check(CRC)**
   - 여러 bits 오류 검출 가능
+  - `Exclusive OR` 연산 사용
+  - `16-bit CRC` or `32-bit CRC`
 - **Checksum**
   - 네트워크를 통해서 전송된 데이터의 값이 변경되었는지(무결성) 검사하는 값
   1. IP 패킷의 헤더를 16 Bits(2 Bytes)씩 끊는다.
