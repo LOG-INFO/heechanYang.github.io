@@ -20,9 +20,9 @@ subclass: 'post page'
 
 # Skill-set
 
-> ### Language : Java / Python / JavaScript
+> ### Language : Java / JavaScript / Python
 
-> ### Framework : Spring / Scrapy / Android
+> ### Framework : Spring / Node.js / Android / Scrapy
 
 > ### Tool : Git / MySQL Workbench
 
@@ -49,3 +49,7 @@ subclass: 'post page'
 > ### - [개인 개발 블로그](https://loginfo.dev) 운영 (2018.09.13 ~ )
 
 > ### - 대학생 IT 벤처 창업 동아리 SOPT (2019.03.23 ~ )
+
+> ### - [창업동아리 Sticket Studio 창립](https://github.com/sticket-studio) (2019.04.11 ~ )
+
+> ### - [2019 Naver Campus Hackday Summer](https://github.com/NAVER-CAMPUS-HACKDAY/common) (2019.05.16 ~ 05.17)
