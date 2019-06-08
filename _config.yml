@@ -19,7 +19,7 @@ baseurl: https://loginfo.dev/
 
 # Website info
 title: LOG.INFO
-description: "#Java #Spring #Android #AWS #MySQL #Python"
+description: "정보를 기록하자"
 cover: /assets/images/blog-cover.jpg
 logo: /assets/images/blog-icon.png
 logo_dark: /assets/images/favicon.png
