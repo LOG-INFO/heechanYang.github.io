@@ -44,7 +44,7 @@ subclass: 'post page'
 
 > ### - 과내 학술동아리 Endless Creation (2013.03.20 ~ )
 
-> ### - 제 9기 소프트웨어 마에스트로 연수 (2018.04.03 ~ 2018.11.20)
+> ### - 제 9기 소프트웨어 마에스트로 연수 (2018.04 ~ 2018.11.20)
 
 > ### - [개인 개발 블로그](https://loginfo.dev) 운영 (2018.09.13 ~ )
 
@@ -53,3 +53,5 @@ subclass: 'post page'
 > ### - [창업동아리 Sticket Studio 창립](https://github.com/sticket-studio) (2019.04.11 ~ )
 
 > ### - [2019 Naver Campus Hackday Summer](https://github.com/NAVER-CAMPUS-HACKDAY/common) (2019.05.16 ~ 05.17)
+
+> ### - 2019 삼성전자 무선사업부 인턴실습과정 (2019.06.24 ~ 08.09 예정)
