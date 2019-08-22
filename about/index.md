@@ -40,6 +40,8 @@ subclass: 'post page'
 
 > ### - 제 10회 TOPCIT 서울과학기술대학교총장상 (2018.12.13)
 
+> ### - 제 11회 TOPCIT 서울과학기술대학교총장상 (2019.07.13)
+
 # Activities
 
 > ### - 과내 학술동아리 Endless Creation (2013.03.20 ~ )
@@ -54,4 +56,4 @@ subclass: 'post page'
 
 > ### - [2019 Naver Campus Hackday Summer](https://github.com/NAVER-CAMPUS-HACKDAY/common) (2019.05.16 ~ 05.17)
 
-> ### - 2019 삼성전자 무선사업부 인턴실습과정 (2019.06.24 ~ 08.09 예정)
+> ### - 2019 삼성전자 무선사업부 인턴실습과정 (2019.06.24 ~ 08.09)
