@@ -9,4 +9,4 @@ categories: etc
 
 ## 발표자료
 
-<embed src="https://heechanyang.github.io/sample.pdf" type="application/pdf" />
+<embed src="https://heechanyang.github.io/assets/pdfs/SpringFramework맛보기.pptx" type="application/pdf" />
