@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "TCP/UDP"
 date:   2018-10-19 20:16:01 +0830
 categories: Network

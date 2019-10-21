@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Java Collections - LOG.INFO"
 date:   2018-12-20 22:34:22 +0830
 categories: java

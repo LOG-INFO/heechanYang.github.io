@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Error Detection And Error Correction - LOG.INFO"
 date:   2019-03-12 14:46:20 +0830
 categories: Network

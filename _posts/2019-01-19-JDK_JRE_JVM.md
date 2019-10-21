@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "JDK/JRE/JVM - LOG.INFO"
 date:   2019-01-19 17:19:22 +0830
 categories: Java

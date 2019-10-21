@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Spring Security OAuth 2.0 (1) - LOG.INFO"
 date:   2019-02-26 20:04:33 +0830
 categories: Spring Framework

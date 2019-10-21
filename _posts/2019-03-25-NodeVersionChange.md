@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "NVM을 이용한 Node 버전 변경 - LOG.INFO"
 date:   2019-03-25 16:14:27 +0830
 categories: Node.js

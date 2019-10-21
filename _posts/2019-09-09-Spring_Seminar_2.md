@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Spring 세미나 (2) : Spring 맛보기 2 - LOG.INFO"
 date:   2019-09-09 20:15:22 +0830
 categories: etc

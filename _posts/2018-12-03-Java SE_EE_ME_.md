@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Java SE/EE/ME - LOG.INFO"
 date:   2018-12-03 03:00:23 +0830
 categories: Java

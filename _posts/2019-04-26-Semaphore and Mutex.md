@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "세마포어(Semaphore)와 뮤텍스(Mutex) - LOG.INFO"
 date:   2019-04-26 19:03:23 +0830
 categories: etc

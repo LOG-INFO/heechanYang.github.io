@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "스프링 빈의 생명 주기(Spring Bean's Life-Cycle) - LOG.INFO"
 date:   2019-03-31 12:23:23 +0830
 categories: Spring Framework

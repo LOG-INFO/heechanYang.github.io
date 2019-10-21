@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "JavaScript란? - LOG.INFO"
 date:   2019-03-30 14:00:00 +0830
 categories: Node.js
