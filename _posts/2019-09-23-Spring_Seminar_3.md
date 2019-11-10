@@ -6,8 +6,6 @@ date:   2019-09-23 20:15:22 +0830
 categories: etc
 ---
 
-![seminar](/assets/images/SecondSeminar.jpg)
-
 ## 세미나 내용
 
 - 지난 세미나 복습

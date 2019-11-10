@@ -72,7 +72,7 @@ void V(Semaphore S, integer I) {
 
 **뮤텍스**란 **공유된 자원의 데이터를 여러 프로세스/스레드가 접근하는 것을 `Locking mechanism`을 이용하여 제어하는 것**을 말한다.
 
-뮤텍스는 기본적으로는 Binary Semaphore와 같고, 때때로 기본적인 구현도 같다. - Wikipedia
+뮤텍스는 기본적으로는 Binary Semaphore와 비슷하고, 때때로 기본적인 구현도 같다. - Wikipedia
 
 다른 점이라면 '어떻게 사용되는가?'  
 Mutex에서는 lock을 건 Thread만 해당 lock을 unlock할 수 있다.
@@ -86,18 +86,16 @@ Mutex에서는 lock을 건 Thread만 해당 lock을 unlock할 수 있다.
 
 ### Mutex
 
-- 단순화(이진)된 세마포어
-- 공유된 자원의 데이터를 여러 **쓰레드**가 접근하는 것을 막는 것
+- 공유 리소스에 대한 접근을 조율하기 위해 `Locking Mechanism`(locking / unlocking)을 사용
+- Binary Semaphore와 비슷하다
 - critical section과 유사(?)
-- 공유 리소스에 대한 접근을 조율하기 위해 locking / unlocking을 사용
 - 동기화 대상이 오직 하나
   - 예) 화장실 열쇠를 1개만! 가질 수 있다.
 
 ### Semaphore
 
-- 공유된 자원의 데이터를 여러 **프로세스**가 접근하는 것을 막는 것
+- 공유 리소스에 대한 접근을 조율하기 위해 `Signaling Mechanism`(wait / signal)을 사용
 - 카운트 기능으로 여러 개의 스레드가 접근 가능
-- 공유 리소스에 대한 접근을 조율하기 위해 wait / signal을 사용
 - 동기화 대상이 하나 이상
   - 예) 화장실 칸이 4개이고 열쇠가 4개라면, 4명까지는 대기없이 사용할 수 있고 그 다음부터는 대기를 해야한다.
 
